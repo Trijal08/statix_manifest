@@ -7,6 +7,8 @@
   <default revision="refs/tags/android-15.0.0_r1"
            remote="aosp"
            sync-j="4" />
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r1"/>
   <contactinfo bugurl="go/repo-bug" />
