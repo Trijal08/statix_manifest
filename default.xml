@@ -8,7 +8,7 @@
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/"
            review="review.lineageos.org" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r1"/>
